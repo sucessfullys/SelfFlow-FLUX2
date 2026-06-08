@@ -1,0 +1,36 @@
+base_model: /mnt/image-edit/datasets/dingbaojin/models/black-forest-labs/FLUX.2-klein-4B
+output_dir: /mnt/image-edit/datasets/duanyufa/outputs/flux2_klein_4b_self_flow
+
+dataset_type: dummy
+metadata_path: null
+image_root: ""
+image_column: image
+caption_column: prompt
+tar_column: tar_file
+tar_cache_size: 8
+dummy_length: 8
+height: null
+width: null
+max_pixels: 1048576
+num_workers: 0
+
+mixed_precision: bf16
+train_batch_size: 1
+gradient_accumulation_steps: 4
+use_gradient_checkpointing: true
+learning_rate: 1.0e-5
+weight_decay: 0.01
+max_grad_norm: 1.0
+max_steps: 1000
+
+mask_ratio: 0.25
+gamma: 0.8
+ema_decay: 0.9999
+student_layer_ratio: 0.3
+teacher_layer_ratio: 0.7
+
+checkpointing_steps: 100
+resume_from_checkpoint: null
+save_ema_teacher: false
+log_every: 1
+seed: 42
