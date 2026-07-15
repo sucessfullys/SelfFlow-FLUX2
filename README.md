@@ -63,3 +63,9 @@ If you encounter issues during installation, they may be caused by upstream depe
 * [sentencepiece](https://github.com/google/sentencepiece)
 * [cmake](https://cmake.org)
 
+## 📰 News
+
+- **[2026.7.15]**: 🤗  We refine the codebase
+- **[xxxx.x.xx]**: 🔥  We are releasing the training weight
+
+
