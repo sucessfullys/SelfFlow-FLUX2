@@ -6,3 +6,15 @@ Unofficial open-source reimplementation of Self-Flow for FLUX.2 full-parameter t
 This project is based on their inference code. Thanks to their contribution!
 
 ![](images/1.png)
+
+## Installation
+
+Install from source (recommended):
+
+```
+git clone https://github.com/modelscope/DiffSynth-Studio.git  
+cd DiffSynth-Studio
+pip install -e .
+```
+
+For more installation methods and instructions for non-NVIDIA GPUs, please refer to the [Installation Guide](/docs/en/Pipeline_Usage/Setup.md).
