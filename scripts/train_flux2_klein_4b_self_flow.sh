@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-cd /mnt/image-edit/datasets/duanyufa/DiffSynth-Studio
+cd xxx/DiffSynth-Studio
 
 CONFIG="configs/train/flux2_klein_4b_self_flow.yaml"
 ACCELERATE_CONFIG="configs/train/accelerate_flux2_self_flow_zero3.yaml"
 TRAIN_SCRIPT="examples/flux2/model_training/train_self_flow.py"
-BASE_MODEL="/mnt/image-edit/datasets/dingbaojin/models/black-forest-labs/FLUX.2-klein-4B"
-OUTPUT_DIR="/mnt/image-edit/datasets/duanyufa/outputs/flux2_klein_4b_self_flow"
+BASE_MODEL="xxx/FLUX.2-klein-4B"
+OUTPUT_DIR="xxx/flux2_klein_4b_self_flow"
 
 has_deepspeed() {
   python -c "import deepspeed" >/dev/null 2>&1
