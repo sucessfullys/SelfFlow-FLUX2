@@ -1,5 +1,5 @@
-base_model: /mnt/image-edit/datasets/dingbaojin/models/black-forest-labs/FLUX.2-klein-4B
-output_dir: /mnt/image-edit/datasets/duanyufa/outputs/flux2_klein_4b_self_flow
+base_model: xxx/FLUX.2-klein-4B
+output_dir: xxx/flux2_klein_4b_self_flow
 
 dataset_type: dummy
 metadata_path: null
