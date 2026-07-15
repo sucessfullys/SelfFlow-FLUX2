@@ -7,9 +7,9 @@ This project is based on their inference code. Thanks to their contribution!
 
 ![](images/1.png)
 
-## Installation
+# Installation
 
-# Installing Dependencies
+## Installing Dependencies
 
 Install from source (recommended):
 
